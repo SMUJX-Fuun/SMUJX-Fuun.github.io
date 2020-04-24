@@ -19,27 +19,12 @@
 ]]></content>
   </entry>
   <entry>
-    <title>My awesome title</title>
-    <url>/2016/10/12/awesome/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>分类1</category>
-        <category>分类2</category>
-      </categories>
-      <tags>
-        <tag>标签1</tag>
-        <tag>标签2</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Markdown语法</title>
     <url>/2020/04/24/Markdown%E8%AF%AD%E6%B3%95/</url>
-    <content><![CDATA[<p>#标题</p>
-<blockquote>
+    <content><![CDATA[<h2 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h2><blockquote>
 <p>“#”的数量表示标题的级数</p>
 </blockquote>
-<p>#字体</p>
-<blockquote>
+<h2 id="字体"><a href="#字体" class="headerlink" title="字体"></a>字体</h2><blockquote>
 <p>加粗</p>
 <blockquote>
 <p>两个*包起来</p>
@@ -63,27 +48,22 @@
 <p>两个~~包起来</p>
 </blockquote>
 </blockquote>
-<p>#引用</p>
-<blockquote>
+<h2 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h2><blockquote>
 <p>“&gt;”的数量表示引用的级数</p>
 </blockquote>
-<p>#分割线</p>
-<blockquote>
+<h2 id="分割线"><a href="#分割线" class="headerlink" title="分割线"></a>分割线</h2><blockquote>
 <p>三个或者三个以上的“-”或“*”都可以表示分割线</p>
 </blockquote>
-<p>#图片</p>
-<blockquote>
+<h2 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h2><blockquote>
 <p>格式为(<code>)！[图片alt](图片地址 &#39;&#39;图片title&#39;&#39;)”(</code>)</p>
 <blockquote>
 <p>图片alt就是显示在图片下面的文字，相当于对图片内容的解释。<br>图片title是图片的标题，当鼠标移到图片上时显示的内容。title可加可不加。</p>
 </blockquote>
 </blockquote>
-<p>#列表</p>
-<blockquote>
+<h2 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h2><blockquote>
 <p>每一级之间相差三个空格，开头可“-”“+”“*”均可</p>
 </blockquote>
-<p>#表格</p>
-<table>
+<h2 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h2><table>
 <thead>
 <tr>
 <th>姓名</th>
@@ -107,8 +87,31 @@
         <category>常识</category>
       </categories>
       <tags>
-        <tag>标签1</tag>
-        <tag>标签2</tag>
+        <tag>常识</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>老子生平</title>
+    <url>/2020/04/24/%E8%80%81%E5%AD%90%E7%94%9F%E5%B9%B3/</url>
+    <content><![CDATA[<p>嘿嘿嘿</p>
+]]></content>
+      <categories>
+        <category>常名</category>
+      </categories>
+      <tags>
+        <tag>常名</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>道德经</title>
+    <url>/2020/04/24/%E9%81%93%E5%BE%B7%E7%BB%8F/</url>
+    <content><![CDATA[<p>jjj</p>
+]]></content>
+      <categories>
+        <category>常道</category>
+      </categories>
+      <tags>
+        <tag>常道</tag>
       </tags>
   </entry>
 </search>
