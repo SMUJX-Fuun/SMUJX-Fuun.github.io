@@ -31,4 +31,84 @@
         <tag>标签2</tag>
       </tags>
   </entry>
+  <entry>
+    <title>Markdown语法</title>
+    <url>/2020/04/24/Markdown%E8%AF%AD%E6%B3%95/</url>
+    <content><![CDATA[<p>#标题</p>
+<blockquote>
+<p>“#”的数量表示标题的级数</p>
+</blockquote>
+<p>#字体</p>
+<blockquote>
+<p>加粗</p>
+<blockquote>
+<p>两个*包起来</p>
+</blockquote>
+</blockquote>
+<blockquote>
+<p>斜体</p>
+<blockquote>
+<p>一个*包起来</p>
+</blockquote>
+</blockquote>
+<blockquote>
+<p>斜体加粗</p>
+<blockquote>
+<p>三个*包起来</p>
+</blockquote>
+</blockquote>
+<blockquote>
+<p>删除线</p>
+<blockquote>
+<p>两个~~包起来</p>
+</blockquote>
+</blockquote>
+<p>#引用</p>
+<blockquote>
+<p>“&gt;”的数量表示引用的级数</p>
+</blockquote>
+<p>#分割线</p>
+<blockquote>
+<p>三个或者三个以上的“-”或“*”都可以表示分割线</p>
+</blockquote>
+<p>#图片</p>
+<blockquote>
+<p>格式为(<code>)！[图片alt](图片地址 &#39;&#39;图片title&#39;&#39;)”(</code>)</p>
+<blockquote>
+<p>图片alt就是显示在图片下面的文字，相当于对图片内容的解释。<br>图片title是图片的标题，当鼠标移到图片上时显示的内容。title可加可不加。</p>
+</blockquote>
+</blockquote>
+<p>#列表</p>
+<blockquote>
+<p>每一级之间相差三个空格，开头可“-”“+”“*”均可</p>
+</blockquote>
+<p>#表格</p>
+<table>
+<thead>
+<tr>
+<th>姓名</th>
+<th align="center">技能</th>
+<th align="right">排行</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>内容</td>
+<td align="center">内容</td>
+<td align="right">内容</td>
+</tr>
+<tr>
+<td>内容</td>
+<td align="center">内容</td>
+<td align="right">内容</td>
+</tr>
+</tbody></table>
+]]></content>
+      <categories>
+        <category>常识</category>
+      </categories>
+      <tags>
+        <tag>标签1</tag>
+        <tag>标签2</tag>
+      </tags>
+  </entry>
 </search>
