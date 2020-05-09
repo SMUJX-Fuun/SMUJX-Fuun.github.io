@@ -5,12 +5,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Category: 常名 - 常·乐</title>
+    <title>Live 2D - 常·乐</title>
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="google" content="notranslate" />
     <meta name="keywords" content="Fechin,"> 
-    
+    <meta name="description" content="Live2D是一种应用于电子游戏的绘图渲染技术，技术由日本Cybernoids公司开发。通过一系列的连续图像和人物建模来生成一种类似三维模型的二维图像，对于以动画风格为主的冒险游戏来说非常有用，缺点,"> 
     <meta name="author" content="John Doe"> 
     <link rel="alternative" href="atom.xml" title="常·乐" type="application/atom+xml"> 
     <link rel="icon" href="/img/favicon.png"> 
@@ -35,117 +35,134 @@
 <body class="loading">
     <span id="config-title" style="display:none">常·乐</span>
     <div id="loader"></div>
-    <div class="nav">
-    <ul id="menu-menu" class="menu">
-        
-        <li class="pview menu-item menu-item-type-post_type menu-item-object-page">
-            <a href="//" title="首页" target="_blank" rel="noopener">首页</a>
-        </li>
-        
-        <li class="pview menu-item menu-item-type-post_type menu-item-object-page">
-            <a href="/categories/" title="分类" target="_blank" rel="noopener">分类</a>
-        </li>
-        
-        <li class="pview menu-item menu-item-type-post_type menu-item-object-page">
-            <a href="/tags/" title="标签" target="_blank" rel="noopener">标签</a>
-        </li>
-        
-        <li class="pview menu-item menu-item-type-post_type menu-item-object-page">
-            <a href="/archives/" title="归档" target="_blank" rel="noopener">归档</a>
-        </li>
-        
-        <li class="pview menu-item menu-item-type-post_type menu-item-object-page">
-            <a href="/about/" title="关于" target="_blank" rel="noopener">关于</a>
-        </li>
-        
-    </ul>
-	<span class="target"></span>
-	<center>
-	<div class="hitokoto">
-		<span class="typed" id="hitokoto" data-st="true"></span>
-	</div>
-	</center>
-	
-	<p class="footerlinks">
-		<a href="#" class="iconfont icon-null"></a>
-		
-            <a href="/" title="facebook" class="iconfont icon-facebook" target="_blank" rel="noopener"> </a>
-        
-            <a href="/" title="twitter" class="iconfont icon-twitter" target="_blank" rel="noopener"> </a>
-        
-            <a href="https://github.com/SMUJX-Fuun/SMUJX-Fuun.github.io" title="github" class="iconfont icon-github" target="_blank" rel="noopener"> </a>
-        
-            <a href="/img/logo.png" title="wechat" class="iconfont icon-wechat" target="_blank" rel="noopener"> </a>
-        
-            <a href="mailto:xxxx@gmail.com" title="email" class="iconfont icon-email" target="_blank" rel="noopener"> </a>
-        
-		<a href="#" class="iconfont icon-null"></a>
-	</p>
-	
-    <p id="copyright">
-        &copy; 2020 John Doe.
-        <span> | </span>Powered by <a href="https://hexo.io/" title="Hexo" target="_blank" rel="noopener">Hexo</a>
-        <span> | </span>Theme <a href="https://github.com/Fechin/hexo-theme-diaspora" title="Diaspora" target="_blank" rel="noopener">Diaspora</a> by Fechin
-		
-		<span> | </span><a rel="nofollow" href="http://www.beian.miit.gov.cn" target="_blank">冀ICP备xxxxxxx号</a>
-		
-    </p>
-</div>
-
-<div id="container">
-    
-<div id="screen">
-    <div id="mark">
-        <div class="layer" data-depth="0.4">
-            <img src="/img/welcome-cover.jpg" id="cover" crossorigin="anonymous" width="1920" height="1080">
-        </div>
-    </div>
-    <div id="vibrant">
-        <svg viewBox="0 0 2880 1620" height="100%" preserveAspectRatio="xMaxYMax slice">
-            <polygon opacity="0.7" points="2000,1620 0,1620 0,0 600,0 "/>
-        </svg>
-        <div></div>
-    </div>
-    <div id="header">
+    <div id="single">
+    <div id="top" style="display: block;">
+    <div class="bar" style="width: 0;"></div>
+    <a class="iconfont icon-home image-icon" href="javascript:;" data-url="http://yoursite.com"></a>
+    <div title="播放/暂停" class="iconfont icon-play"></div>
+    <h3 class="subtitle">Live 2D</h3>
+    <div class="social">
         <div>
-            <a class="image-logo" href="/"></a>
-			
-			<div class="iconfont icon-search switchsearch" href="/search/" title="搜索"></div>
-			
-            <div class="iconfont icon-menu switchmenu"></div>
+            <div class="share">
+                <a title="获取二维码" class="iconfont icon-scan" href="javascript:;"></a>
+            </div>
+            <div id="qr"></div>
         </div>
     </div>
-    
-    <div id="post0">
-        <p>四月 25, 2020</p>
-        <h2><a href="/2020/04/25/%E7%88%B1%E5%9B%A0%E6%96%AF%E5%9D%A6/" title="爱因斯坦" class="posttitle">爱因斯坦</a></h2>
-        <p class="summary">阿尔伯特·爱因斯坦（德语/英语：Albert Einstein，1879年3月14日—1955年4月18日）出生于...</p>
-    </div>
-    
+    <div class="scrollbar"></div>
 </div>
 
-    <div id="primary">
+    <div class="section">
+        <div class="article">
+    <div class='main'>
+        <h1 class="title">Live 2D</h1>
+        <div class="stuff">
+            <span>四月 29, 2020</span>
+            
+  <ul class="post-tags-list" itemprop="keywords"><li class="post-tags-list-item"><a class="post-tags-list-link" href="/tags/Markdown/" rel="tag">Markdown</a></li></ul>
+
+
+        </div>
+        <div class="content markdown">
+            <p>Live2D是一种应用于电子游戏的绘图渲染技术，技术由日本Cybernoids公司开发。通过一系列的连续图像和人物建模来生成一种类似三维模型的二维图像，对于以动画风格为主的冒险游戏来说非常有用，缺点是Live 2D人物无法大幅度转身，开发商正设法让该技术可显示360度图像。</p>
+<h3 id="在Hexo中添加Live2D"><a href="#在Hexo中添加Live2D" class="headerlink" title="在Hexo中添加Live2D"></a>在Hexo中添加Live2D</h3><p>1、安装模块</p>
+<blockquote>
+<p>npm install –save hexo-helper-live2d</p>
+</blockquote>
+<p>2、下载模型</p>
+<blockquote>
+<p>npm install live2d-widget-model-gibiki</p>
+</blockquote>
+<p>3、增加配置（博客的配置文件）</p>
+<blockquote>
+<p>live2d:</p>
+</blockquote>
+<blockquote>
+<p>enable: true</p>
+</blockquote>
+<blockquote>
+<p>scriptFrom: local</p>
+</blockquote>
+<blockquote>
+<p> pluginRootPath: live2dw/ # 插件在站点上的根目录(相对路径)</p>
+</blockquote>
+<blockquote>
+<p> pluginJsPath: lib/ # 脚本文件相对与插件根目录路径</p>
+</blockquote>
+<blockquote>
+<p> pluginModelPath: assets/ # 模型文件相对与插件根目录路径</p>
+</blockquote>
+<blockquote>
+<p> tagMode: false # 标签模式, 是否仅替换 live2dtag标签而非插入到所有页面中</p>
+</blockquote>
+<blockquote>
+<p> log: false </p>
+</blockquote>
+<blockquote>
+<p> model:</p>
+</blockquote>
+<blockquote>
+<p>   use: live2d-widget-model-wanko</p>
+</blockquote>
+<blockquote>
+<p> display:</p>
+</blockquote>
+<blockquote>
+<p>   position: right</p>
+</blockquote>
+<blockquote>
+<p>   width: 150</p>
+</blockquote>
+<blockquote>
+<p>   height: 300</p>
+</blockquote>
+<blockquote>
+<p> mobile:</p>
+</blockquote>
+<blockquote>
+<p>   show: true # 是否在移动设备上显示</p>
+</blockquote>
+<blockquote>
+<p> react:</p>
+</blockquote>
+<blockquote>
+<p>   opacity: 0.7</p>
+</blockquote>
+
+            <!--[if lt IE 9]><script>document.createElement('audio');</script><![endif]-->
+            <audio id="audio" loop="1" preload="auto" controls="controls" data-autoplay="true">
+                <source type="audio/mpeg" src="">
+            </audio>
+            
+                <ul id="audio-list" style="display:none">
+                    
+                        
+                            <li title='0' data-url='http://music.163.com/song/media/outer/url?id=442518481.mp3'></li>
+                        
+                    
+                </ul>
+            
+        </div>
         
-<div class="post">
-    <a href="/2020/04/24/%E8%80%81%E5%AD%90%E7%94%9F%E5%B9%B3/" title="老子生平">
-        <img src="/img/LaoZi.jpg" class="cover" width="680" height="440">
-    </a>
-    <div class="else">
-        <p>四月 24, 2020</p>
-        <h3><a href="/2020/04/24/%E8%80%81%E5%AD%90%E7%94%9F%E5%B9%B3/" title="老子生平" class="posttitle">老子生平</a></h3>
-        <p>简介老子，姓李名耳，字聃，一字伯阳，或曰谥伯阳，春秋时期人，生卒年不详，籍贯也多有争议。中国古代思想家、哲学家、文学家和史学家，道家学派创始人和主要代表人...</p>
-    </div>
-</div>
+    <div id='gitalk-container' class="comment link"
+		data-enable='true'
+        data-ae='true'
+        data-ci='003095b2f83778da3a70'
+        data-cs='72a6bc4ecfd14d41a2b2b366beefacde13838405'
+        data-r='SMUJX-Fuun.github.io'
+        data-o='SMUJX-Fuun'
+        data-a='SMUJX-Fuun'
+        data-d='true'
+    >查看评论</div>
 
 
     </div>
     
 </div>
-<div id="preview"></div>
 
 
-
-
+    </div>
+</div>
 <script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"log":false,"pluginJsPath":"lib/","pluginModelPath":"assets/","pluginRootPath":"live2dw/","tagMode":false});</script></body>
 
 <script src="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
