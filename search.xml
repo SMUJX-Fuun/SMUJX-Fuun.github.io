@@ -595,4 +595,79 @@
         <tag>成都</tag>
       </tags>
   </entry>
+  <entry>
+    <title>Live 2D</title>
+    <url>/2020/05/08/Gitalk%E8%AF%84%E8%AE%BA%E6%8F%92%E4%BB%B6/</url>
+    <content><![CDATA[<p>Live2D是一种应用于电子游戏的绘图渲染技术，技术由日本Cybernoids公司开发。通过一系列的连续图像和人物建模来生成一种类似三维模型的二维图像，对于以动画风格为主的冒险游戏来说非常有用，缺点是Live 2D人物无法大幅度转身，开发商正设法让该技术可显示360度图像。</p>
+<h3 id="在Hexo中添加Live2D"><a href="#在Hexo中添加Live2D" class="headerlink" title="在Hexo中添加Live2D"></a>在Hexo中添加Live2D</h3><p>1、安装模块</p>
+<blockquote>
+<p>npm install –save hexo-helper-live2d</p>
+</blockquote>
+<p>2、下载模型</p>
+<blockquote>
+<p>npm install live2d-widget-model-gibiki</p>
+</blockquote>
+<p>3、增加配置（博客的配置文件）</p>
+<blockquote>
+<p>live2d:</p>
+</blockquote>
+<blockquote>
+<p>enable: true</p>
+</blockquote>
+<blockquote>
+<p>scriptFrom: local</p>
+</blockquote>
+<blockquote>
+<p> pluginRootPath: live2dw/ # 插件在站点上的根目录(相对路径)</p>
+</blockquote>
+<blockquote>
+<p> pluginJsPath: lib/ # 脚本文件相对与插件根目录路径</p>
+</blockquote>
+<blockquote>
+<p> pluginModelPath: assets/ # 模型文件相对与插件根目录路径</p>
+</blockquote>
+<blockquote>
+<p> tagMode: false # 标签模式, 是否仅替换 live2dtag标签而非插入到所有页面中</p>
+</blockquote>
+<blockquote>
+<p> log: false </p>
+</blockquote>
+<blockquote>
+<p> model:</p>
+</blockquote>
+<blockquote>
+<p>   use: live2d-widget-model-wanko</p>
+</blockquote>
+<blockquote>
+<p> display:</p>
+</blockquote>
+<blockquote>
+<p>   position: right</p>
+</blockquote>
+<blockquote>
+<p>   width: 150</p>
+</blockquote>
+<blockquote>
+<p>   height: 300</p>
+</blockquote>
+<blockquote>
+<p> mobile:</p>
+</blockquote>
+<blockquote>
+<p>   show: true # 是否在移动设备上显示</p>
+</blockquote>
+<blockquote>
+<p> react:</p>
+</blockquote>
+<blockquote>
+<p>   opacity: 0.7</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>常知</category>
+      </categories>
+      <tags>
+        <tag>Markdown</tag>
+      </tags>
+  </entry>
 </search>
